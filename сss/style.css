@@ -30,25 +30,30 @@ body {
 }
 
 .conteiner {
-  Width: 1200px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.menu{
+.menu {
   display: inline-flex;
 }
-
-.menu-item:not(:last-child){
-margin-right: 50px;
+.menu2 {
+  display: flex;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
-.page header .conteiner{
+.page header .conteiner {
   display: flex;
   align-items: center;
 }
+.page header .btn {
+margin-left: 50px;
 
+}
 .logo {
   font-family: var(--title-font);
   font-style: normal;
@@ -88,6 +93,12 @@ margin-right: 50px;
 }
 
 .btn {
+   /* видео 5935  */
+  min-width: 200px;
+   min-height: 50px;
+  background: var(--alt--tait-color);
+  border-radius: 4px;
+padding: 10px 32px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
