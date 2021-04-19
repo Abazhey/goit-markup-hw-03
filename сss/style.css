@@ -42,10 +42,28 @@ body {
 .menu2 {
   display: flex;
 }
+.fufuter{
+  font-family: var(--title-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+color: white;
+text-decoration: none;
+
+letter-spacing: 0.03em;
+}
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
 
+.lili:not(:last-child){
+margin-right: 30px;
+width: 270px;
+}
+.lili{
+  width: 270px;
+}
 .page header .conteiner {
   display: flex;
   align-items: center;
@@ -94,6 +112,7 @@ padding-bottom: 130;
 }
 .address {
   font-style: inherit;
+  
 }
 
 .btn {
@@ -110,6 +129,7 @@ padding: 10px 32px;
   letter-spacing: 0.06em;
   color: var(--dark-bg-text);
   background-color: var(--alt--tait-color);
+margin-top: 40px;
 }
 .btn2 {
   font-weight: bold;
@@ -136,13 +156,14 @@ padding: 10px 32px;
 }
 .card-set {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
 }
-.item {
-  margin-left: 30px;
+.item:not(:last-child) {
+  margin-right: 30px;
   margin-top: 30px;
+}
+.item{
+  margin-top: 30px;
+  
 }
 .ponchik-titl {
   font-family: var(--title-text-color: #212121;);
@@ -166,15 +187,23 @@ padding: 10px 32px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #212121;
+text-align: center;
 }
-
+.copchik{
+  text-align: center;
+}
+.tvari{
+  background-color:var(--secont-bd)
+}
 .dark {
   background-color: var(--dark-bg-cl);
   padding: 200px 0;
 }
-
+.dark-footer{
+  background-color: var(--dark-bg-cl);
+  padding: 60px 0;
+}
 .Text {
   font-family: var(--title-font);
   font-style: normal;
@@ -208,6 +237,16 @@ padding: 10px 32px;
   letter-spacing: 0.06em;
 
   color: var(--title-text-color);
-
-
+}
+.koko{
+  font-family:var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
  
+.novu{
+  text-align: left;
+}
+.flex-wrap
