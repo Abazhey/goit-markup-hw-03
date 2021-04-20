@@ -249,4 +249,23 @@ text-align: center;
 .novu{
   text-align: left;
 }
-.flex-wrap
+.turok{
+  margin-left:auto ;
+}
+.turok2{
+list-style-type: none;
+}
+.obnyl{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.displey{
+  display: inline-flex;
+  margin-right: 30px;
+  
+ 
+}
+
+
+
