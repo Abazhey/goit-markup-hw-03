@@ -109,12 +109,24 @@ padding-bottom: 130;
 }
 .list {
   list-style: none;
+  margin: -15;
+}
+.tutu
+{padding: 20px;}
+
+.loshka{
+  display: flex;
+  margin: 0px auto 50px auto;
+  justify-content: center;
+  padding-top: 94px;
 }
 .address {
   font-style: inherit;
-  
 }
-
+.pypok{
+  margin: 15px ;
+  width: 370px;
+}
 .btn {
    /* видео 5935  */
  
@@ -194,15 +206,21 @@ text-align: center;
   text-align: center;
 }
 .tvari{
-  background-color:var(--secont-bd)
+  background-color:var(--secont-bd);
+  width: 1600px;
+  height: 648px;
 }
 .dark {
   background-color: var(--dark-bg-cl);
   padding: 200px 0;
+  width: 1600px;
+  height: 600px;
 }
 .dark-footer{
   background-color: var(--dark-bg-cl);
   padding: 60px 0;
+  width: 1600px;
+  height: 252px;
 }
 .Text {
   font-family: var(--title-font);
@@ -216,15 +234,21 @@ text-align: center;
 
 .knopka {
   font-family: var(--main-font);
-  font-style: normal;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
+  color: var(--link-color);
+  margin-right: 8px;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+  border: none;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--title-text-color);
+}
+.knopka:hover{
+  background-color: #2196f3;
 }
 .zagolovok {
   font-family: var(--main-font);
@@ -254,6 +278,7 @@ text-align: center;
 }
 .turok2{
 list-style-type: none;
+
 }
 .obnyl{
   margin-top: 0px;
@@ -264,7 +289,6 @@ list-style-type: none;
   display: inline-flex;
   margin-right: 30px;
   
- 
 }
 
 
