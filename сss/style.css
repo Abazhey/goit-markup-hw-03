@@ -18,7 +18,13 @@
   --main-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
 }
-
+ul{
+  margin: 0px;
+}
+.topa{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 body {
   font-family: var(--main-font);
 
@@ -35,6 +41,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 .menu {
   display: inline-flex;
@@ -111,9 +118,17 @@ padding-bottom: 130;
   list-style: none;
   margin: -15;
 }
+.ppoo{
+  display: flex; 
+  flex-wrap: wrap;
+padding: 0;
+margin: -15px;
+}
+.kiki{
+  padding-bottom:94px ;
+}
 .tutu
-{padding: 20px;}
-
+{padding: 20px 0px 20px 24px;}
 .loshka{
   display: flex;
   margin: 0px auto 50px auto;
@@ -126,6 +141,7 @@ padding-bottom: 130;
 .pypok{
   margin: 15px ;
   width: 370px;
+
 }
 .btn {
    /* видео 5935  */
@@ -178,12 +194,13 @@ margin-top: 40px;
   
 }
 .ponchik-titl {
-  font-family: var(--title-text-color: #212121;);
+  font-family: var(--title-text-color);
   font-size: 36px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #212121;
   text-align:center;
+  margin:0;
 }
 
 .Nigers-title {
@@ -205,22 +222,25 @@ text-align: center;
 .copchik{
   text-align: center;
 }
+.egorsps{
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.egorgamno{
+  padding-top: 94px;
+}
 .tvari{
   background-color:var(--secont-bd);
-  width: 1600px;
-  height: 648px;
-}
+  padding-bottom: 94px;
+  padding-top: 94px;
+}  
 .dark {
   background-color: var(--dark-bg-cl);
   padding: 200px 0;
-  width: 1600px;
-  height: 600px;
 }
 .dark-footer{
   background-color: var(--dark-bg-cl);
   padding: 60px 0;
-  width: 1600px;
-  height: 252px;
 }
 .Text {
   font-family: var(--title-font);
@@ -278,6 +298,7 @@ text-align: center;
 }
 .turok2{
 list-style-type: none;
+padding-left: 0px;
 
 }
 .obnyl{
@@ -290,6 +311,4 @@ list-style-type: none;
   margin-right: 30px;
   
 }
-
-
 
