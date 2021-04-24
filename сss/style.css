@@ -20,6 +20,7 @@
 }
 ul{
   margin: 0px;
+  
 }
 .topa{
   padding-top: 25px;
@@ -92,7 +93,7 @@ padding-bottom: 130;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-right: 90px;
+  
 }
 .logofu {
   color: var(--dark-bg-text);
@@ -100,6 +101,9 @@ padding-bottom: 130;
 
 .logo-half {
   color: var(--alt--tait-color);
+}
+.lolologo{
+  margin-bottom: 20px;
 }
 
 .link {
@@ -116,7 +120,7 @@ padding-bottom: 130;
 }
 .list {
   list-style: none;
-  margin: -15;
+  
 }
 .ppoo{
   display: flex; 
@@ -128,7 +132,7 @@ margin: -15px;
   padding-bottom:94px ;
 }
 .tutu
-{padding: 20px 0px 20px 24px;}
+{padding: 20px 24px;}
 .loshka{
   display: flex;
   margin: 0px auto 50px auto;
@@ -187,7 +191,7 @@ margin-top: 40px;
 }
 .item:not(:last-child) {
   margin-right: 30px;
-  margin-top: 30px;
+  
 }
 .item{
   margin-top: 30px;
@@ -201,6 +205,7 @@ margin-top: 40px;
   color: #212121;
   text-align:center;
   margin:0;
+  margin-bottom: 30px;
 }
 
 .Nigers-title {
@@ -241,6 +246,9 @@ text-align: center;
 .dark-footer{
   background-color: var(--dark-bg-cl);
   padding: 60px 0;
+}
+.footer5{
+  margin-bottom: 9px;
 }
 .Text {
   font-family: var(--title-font);
