@@ -20,7 +20,7 @@
 }
 ul{
   margin: 0px;
-  
+  padding: 0;
 }
 .topa{
   padding-top: 25px;
@@ -46,6 +46,7 @@ body {
 }
 .menu {
   display: inline-flex;
+  padding: 20px;
 }
 .menu2 {
   display: flex;
@@ -68,6 +69,7 @@ letter-spacing: 0.03em;
 .lili:not(:last-child){
 margin-right: 30px;
 width: 270px;
+
 }
 .lili{
   width: 270px;
@@ -93,14 +95,17 @@ padding-bottom: 130;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin: 70px;
   
 }
 .logofu {
   color: var(--dark-bg-text);
+  
 }
 
 .logo-half {
   color: var(--alt--tait-color);
+  
 }
 .lolologo{
   margin-bottom: 20px;
@@ -113,6 +118,9 @@ padding-bottom: 130;
   font-size: 14;
   line-height: 1.14;
   color: var(--title-text-color);
+}
+.lilink{
+  color: var(--mail-text-color)
 }
 .link:hover,
 .link:focus {
@@ -195,6 +203,7 @@ margin-top: 40px;
 }
 .item{
   margin-top: 30px;
+ 
   
 }
 .ponchik-titl {
@@ -205,7 +214,8 @@ margin-top: 40px;
   color: #212121;
   text-align:center;
   margin:0;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  
 }
 
 .Nigers-title {
@@ -218,10 +228,10 @@ margin-top: 40px;
 }
 .title-Li {
   font-family: var(--title-text-color);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--title-text-color);
 text-align: center;
 }
 .copchik{
@@ -249,6 +259,7 @@ text-align: center;
 }
 .footer5{
   margin-bottom: 9px;
+  
 }
 .Text {
   font-family: var(--title-font);
@@ -284,11 +295,15 @@ text-align: center;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  margin: 0px;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 
   color: var(--title-text-color);
+}
+.texta{
+  margin: 0px;
 }
 .koko{
   font-family:var(--main-font);
@@ -300,14 +315,14 @@ text-align: center;
  
 .novu{
   text-align: left;
+
 }
 .turok{
   margin-left:auto ;
 }
 .turok2{
 list-style-type: none;
-padding-left: 0px;
-
+padding: 20px;
 }
 .obnyl{
   margin-top: 0px;
@@ -316,7 +331,6 @@ padding-left: 0px;
 }
 .displey{
   display: inline-flex;
-  margin-right: 30px;
+  margin-right: 8px;
   
 }
-
