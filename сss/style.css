@@ -130,15 +130,15 @@ body {
 }
 .kiki {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .tutu {
   padding: 20px 24px;
 }
 .loshka {
   display: flex;
-  margin: 0px auto 50px auto;
+  margin-bottom: 50px;
   justify-content: center;
-  padding-top: 94px;
 }
 .address {
   font-style: inherit;
@@ -329,4 +329,9 @@ body {
 .mp {
   margin: 0;
   padding: 0;
+}
+.dsfhil {
+  border-radius: ;
+  border: bottom 4px;
+  border: left 24px;
 }
