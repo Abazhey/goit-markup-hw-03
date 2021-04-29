@@ -65,7 +65,7 @@
           <ul class="list" style="display: flex">
             <li class="lili">
               <h3 class="title-Li novu">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-              <p>
+              <p class="marbo">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
@@ -73,7 +73,7 @@
             <li class="lili">
               <h3 class="title-Li novu">ПУНКТУАЛЬНОСТЬ</h3>
 
-              <p>
+              <p class="marbo">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
@@ -81,14 +81,14 @@
             <li class="lili">
               <h3 class="title-Li novu">ПЛАНИРОВАНИЕ</h3>
 
-              <p>
+              <p class="marbo">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li class="lili">
               <h3 class="title-Li novu">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-              <p>
+              <p class="marbo">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -103,6 +103,7 @@
           <ul class="list card-set topchik">
             <li class="team-iten item">
               <img
+                style="display: block; max-width: 100%"
                 src="./logo.img/img.png"
                 width="370"
                 height="294"
@@ -111,6 +112,7 @@
             </li>
             <li class="team-iten item">
               <img
+                style="display: block; max-width: 100%"
                 src="./logo.img/img (1).png"
                 width="370"
                 height="294"
@@ -119,6 +121,7 @@
             </li>
             <li class="team-iten item">
               <img
+                style="display: block; max-width: 100%"
                 src="./logo.img/img (2).png"
                 width="370"
                 height="294"
@@ -130,7 +133,7 @@
       </section>
       <section class="tvari">
         <div class="conteiner">
-          <h2 class="Nigers-title">Наша команда</h2>
+          <h2 class="Nigers-title marbo">Наша команда</h2>
           <ul class="list card-set">
             <li class="team-iten item">
               <img
@@ -139,8 +142,8 @@
                 height="260"
                 alt="Игорь"
               />
-              <h4 class="title-Li">Игорь Демьяненко</h4>
-              <p class="copchik">Product Designer</p>
+              <h3 class="title-Li marbo">Игорь Демьяненко</h4>
+              <p class="copchik marbo">Product Designer</p>
             </li>
             <li class="team-iten item">
               <img
@@ -149,8 +152,8 @@
                 height="260"
                 alt="Светлана"
               />
-              <h4 class="title-Li">Ольга Репина</h4>
-              <p class="copchik">Frontend Developer</p>
+              <h3 class="title-Li marbo">Ольга Репина</h4>
+              <p class="copchik marbo">Frontend Developer</p>
             </li>
             <li class="team-iten item">
               <img
@@ -159,8 +162,8 @@
                 height="260"
                 alt="Николай Тарасов"
               />
-              <h4 class="title-Li">Николай Тарасов</h4>
-              <p class="copchik">Marketing</p>
+              <h3 class="title-Li marbo">Николай Тарасов</h4>
+              <p class="copchik marbo">Marketing</p>
             </li>
             <li class="team-iten item">
               <img
@@ -169,8 +172,8 @@
                 height="260"
                 alt="Михаил Ермаков"
               />
-              <h4 class="title-Li">Михаил Ермаков</h4>
-              <p class="copchik">UI Designer</p>
+              <h3 class="title-Li marbo">Михаил Ермаков</h4>
+              <p class="copchik marbo">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -179,12 +182,12 @@
     <footer class="dark-footer">
       <div class="conteiner">
         <!-- Адрес и контакты в футере -->
-        <a class="logo" href=""
+        <a class="logo" 
           ><span class="logo-half">Web</span><span class="logofu">Studio</span>
         </a>
         <address class="address">
           <ul class="turok2">
-            <li class="footer5">
+            <li class="footer5" item:not(:last-child){}>
               <a
                 class="fufuter"
                 href="https://goo.gl/maps/oNS3qtccbDYaicC58"
@@ -194,12 +197,12 @@
               </a>
             </li>
 
-            <li class="footer5">
+            <li class="footer5" item:not(:last-child){}>
               <a class="link koko" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="footer5">
+            <li class="footer5" item:not(:last-child){}>
               <a class="link koko" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
